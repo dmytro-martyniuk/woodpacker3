@@ -3,9 +3,9 @@ package com.marty.woodpacker.entity;
 import lombok.Data;
 
 @Data
-
 public class Comics {
 
+    private long id;
     private int month;
     private int num;
     private String link;
